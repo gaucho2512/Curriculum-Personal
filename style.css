@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
+    height: 1500px;
 }
 
 .fondo{
@@ -7,8 +8,8 @@ body{
     height: 300px;
     background-image: url(imagenes/foto-2.png);
     background-repeat: no-repeat;
-
     display: flex;
+    margin-bottom: 60px;
 
 }
 
@@ -37,14 +38,37 @@ body{
 
 }
 
-.seccion-formacion{
+.seccion-datos{
   width: 100%;
   height: 300px;
-  background-color:#cfd3ce;
+
 }
 
-.seccion-conocimientos{
+.seccion-formacion{
     width: 100%;
-    height: 300px;
-    background-color: white;
+    height: 320px;
+    
+    
 }
+
+.seccion-extras{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.seccion-laboral{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.div-formacion{
+   margin-bottom: 98px;
+}
+
+.div-laboral{
+    margin-bottom: 9px;
+}
+
+
