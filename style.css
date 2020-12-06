@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
-    height: 1950px;
-    background-image: url(/imagenes/fondo-codigo.jpg);
+    height: 2050px;
+    background-image: url(./imagenes/fondo-codigo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -10,7 +10,7 @@ body{
 .fondo{
     width: 100%;
     height: 280px;
-    background-image: url(imagenes/fondo-metal.jpg);
+    background-image: url(./imagenes/fondo-metal.jpg);
     background-size: 100% 280px;
     background-repeat: no-repeat;
     display: flex;
@@ -79,6 +79,7 @@ body{
 
 .section-cursos{
     margin-left: 300px;
+ 
    
     
 }
@@ -96,12 +97,13 @@ body{
 
 .logo-link{
     width: 15%;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .logo-gato{
     width: 21%;
     margin-left: 430px;
+    margin-top: 25px;
 }
 
 .logo-face{
@@ -161,5 +163,13 @@ body{
     margin-top: -95px;
 }
 
+.footer-logos{
+    width: 100%;
+    height: 200px;
+    background-image: url(./imagenes/fondo-metal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px; 
+    margin-top: 100px;
+}
 
 
