@@ -95,26 +95,27 @@ body{
 }
 
 .logo-link{
-    width: 15%;
-    margin-top: 50px;
+    width: 8%;
+    margin-top: 160px;
+    margin-left: 10px;
 }
 
 .logo-gato{
-    width: 21%;
-    margin-left: 430px;
-    margin-top: 25px;
+    width: 11%;
+    margin-left: 650px;
+    margin-top: 160px;
 }
 
 .logo-face{
-    width: 6%;
-    margin-top: 210px;
-    margin-left: 850px;
+    width: 10.5%;
+    margin-top: 63px;
+    margin-left: 500px;
 }
 
 .logo-insta{
-    width: 7%;
-    margin-top: -82px;
-    margin-left: 760px;
+    width: 12%;
+    margin-top: 61px;
+    margin-left: -15px;
 }
 
 .logo-casa{
