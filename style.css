@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
-    height: 2050px;
+    height: 2380px;
     background-image: url(./imagenes/fondo-codigo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -60,12 +60,15 @@ body{
 .seccion-extras{
     width: 100%;
     height: 200px;
+    margin-top: 60px;
     
 }
 
 .seccion-laboral{
     width: 100%;
     height: 200px;
+    margin-top: 120px;
+    margin-bottom: 30px;
     
 }
 
@@ -84,13 +87,13 @@ body{
 
 .seccion-conocimientos{
  margin-left: 225px;
- margin-bottom: 40px;
- margin-top: 20px;
+ margin-bottom: 65px;
+ margin-top: 40px;
 }
 
 .logo-amemt{
-    width: 8%;
-    margin-top: 4px;
+    width: 5%;
+    margin-top: 10px;
     margin-left: 50px;
 }
 
@@ -153,16 +156,11 @@ body{
 .logo-git{
     width: 5%;
 }
-.fondo-logo{
-    width: 50%;
-    margin-left: 380px;
-    margin-top: 70px;
-    position: absolute;
-}
+
 .logo-cepit{
-    width: 10%;
-    margin-left: 270px;
-    margin-top: -80px;
+    width: 6%;
+    margin-left: 200px;
+    margin-top: -50px;
 }
 
 .footer-logos{
@@ -177,5 +175,15 @@ body{
 .section-cur{
     margin-left: 110px;
 }
+
+.logo-scrum{
+   width: 4%;
+   margin-left: 5px;
+}
+
+.logo-vue{
+  width: 5%;
+}
+
 
 
