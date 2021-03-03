@@ -1,2 +1,2 @@
 # Curriculum
-curriculum personal con HTML y CSS
+curriculum personal hecho con HTML, Css y Bootstrap
