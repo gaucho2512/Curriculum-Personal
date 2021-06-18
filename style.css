@@ -1,53 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 body{
-    font-family: 'Open Sans Condensed', sans-serif;
-    height: 2380px;
     background-image: url(./imagenes/fondo-codigo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
 }
 
-.fondo{
-    width: 100%;
-    height: 280px;
-    background-image: url(./imagenes/fondo-metal.jpg);
-    background-size: 100% 280px;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 60px;
 
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(./imagenes/fondo-metal.jpg);
+    margin-bottom: 60px;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.contenedor-foto-perfil {
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contenedor-titulo {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-logos-header {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos-header {
+    position: absolute;
+    left: 100px;
 }
 
 .foto-perfil{
-    width: 15%;
-    height: 200px ;
-    border-radius: 50%;
-    margin: 50px 0 0 200px;
+    height: 170px ;
+    border-radius: 100%;
 }
 
 .nombre{
-    position: absolute;
-    color: white;
-    margin-left: 470px;
-    margin-top: 110px;
-    display: flex;
+    color: #FFFFFF;
 }
 
 .titulo{
-    color: white;
-    display: flex;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 472px;
+    color: #FFFFFF;
     font-size: 20px;
+}
 
+
+
+
+
+
+
+
+
+
+/* SECCION DATOS */
+
+.card-title {
+    text-decoration: underline;
+}
+
+.espacio {
+    margin-left: 15px !important;
+}
+
+.card-header {
+    background-color: #FFED99 !important;
 }
 
 .seccion-datos{
   width: 100%;
   height: 300px;
-  margin-bottom: 90px;
+}
 
+.contenedor-logos-centrales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-logos-centrales div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 100px;
+}
+
+.blockquote-footer::before {
+    content: '' !important;
+}
+
+.card-body p {
+    font-size: 16px;
 }
 
 .seccion-formacion{
@@ -59,67 +128,137 @@ body{
 
 .seccion-extras{
     width: 100%;
-    height: 200px;
-    margin-top: 60px;
+    margin-top: 75px;
     
 }
 
 .seccion-laboral{
     width: 100%;
-    height: 200px;
-    margin-top: 120px;
-    margin-bottom: 30px;
-    
 }
 
-.div-formacion{
-   margin-bottom: 98px;
+.div-formacion {
+    height: 475px !important;
 }
 
-.div-laboral{
-    margin-bottom: 9px;
+.border-container {
+    margin-bottom: 15px;
 }
 
-.section-cursos{
-    
-  margin-left: 200px; 
+.section-cursos ,.contenedor-conocimientos, .contenedor-trabajo {
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.seccion-conocimientos{
- margin-left: 225px;
- margin-bottom: 65px;
- margin-top: 40px;
+.contenedor-trabajo {
+    margin-top: 15px;
 }
 
-.logo-amemt{
-    width: 5%;
-    margin-top: 10px;
-    margin-left: 50px;
+.info-trabajo p {
+    font-size: 14px;
+    font-weight: 700;
+
 }
+
+.info-trabajo p strong {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.fortalezas {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-trabajo span {
+     font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* LOGOS */
+.logo-react {
+    width: 22%;
+}
+
+.logo-jquery {
+    width: 23%;
+}
+
+.logo-figma {
+    width: 20%;
+}
+
 
 .logo-link{
-    width: 8%;
-    margin-top: 160px;
-    margin-left: 10px;
+    width: 22%;
+    transition: all 0.2 ease;
+}
+.logo-link:hover {
+    transform: scale(1.2);
 }
 
 .logo-gato{
-    width: 11%;
-    margin-left: 650px;
-    margin-top: 160px;
+    width: 30%;
+    transition: all 0.2 ease;
+}
+.logo-gato:hover {
+    transform: scale(1.2);
 }
 
 .logo-face{
-    width: 10.5%;
-    margin-top: 63px;
-    margin-left: 500px;
+    width: 15%;
+    transition: all 0.1 ease;
+   
+}
+
+.logo-face:hover {
+    transform: scale(1.1);
 }
 
 .logo-insta{
-    width: 12%;
-    margin-top: 61px;
-    margin-left: -15px;
+    width: 33%;
+    position: relative;
+    left: 100px;
+    transition: all 0.1 ease;
 }
+
+.logo-insta:hover {
+    transform: scale(1.1);
+}
+
+.contenedor-firma {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+}
+
+.firma p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+.firma a{
+     text-decoration: none;
+     color: #FFFFFF;
+     font-weight: 700;
+}
+
+.firma a:hover {
+    color: #fae277;
+    text-decoration: none;
+}
+
+.contenedor-logos-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
 
 .logo-casa{
     width: 10%;
@@ -140,27 +279,19 @@ body{
     margin-left: 5px;
 }
 .logo-html{
-    width: 4.5%;
+    width: 23%;
 }
 .logo-css{
-    width: 5.1%;
-    margin-left: -2px;
+    width: 27%;
 }
 .logo-js{
-     width: 4.5%;
+     width: 23%;
 }
 .logo-bootstrap{
-    width: 8%;
-    margin-left: -13px;
+    width: 43%;
 }
 .logo-git{
-    width: 5%;
-}
-
-.logo-cepit{
-    width: 6%;
-    margin-left: 200px;
-    margin-top: -50px;
+    width: 26%;
 }
 
 .footer-logos{
@@ -172,17 +303,12 @@ body{
     margin-top: 100px;
 }
 
-.section-cur{
-    margin-left: 110px;
-}
-
 .logo-scrum{
-   width: 4%;
-   margin-left: 5px;
+   width: 25%;
 }
 
 .logo-vue{
-  width: 5%;
+  width: 31%;
 }
 
 

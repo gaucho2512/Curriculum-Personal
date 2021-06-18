@@ -6,125 +6,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae de Ariztegui Juan</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
 
-<!-- SECCION HEADER ---- FOTO DE PERFIL -->
+    <!-- SECCION HEADER ---- FOTO DE PERFIL -->
 
-    <div class="row">
-        <div class="col-12">
-
-            <div class="fondo">
-                <img class="foto-perfil" src="imagenes/foto-perfil.jpg" alt="foto-de-perfil">
-                <h1 class="nombre"> ARIZTEGUI JUAN CARLOS</h1>
-                <p class="titulo">FRONTEND DEVELOPER</p>
+    <header>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 contenedor-foto-perfil">
                 <div>
-                    <a  target="_blank" href="https://github.com/gaucho2512"> <img class="logo-gato" src="./imagenes/logos/gitHub.png" alt="github"></a>
-                    <a  target="_blank" href="http://www.linkedin.com/in/juan-carlos-ariztegui-0bb6aa1b9"><img class="logo-link" src="./imagenes/logos/linkedin.png" alt="linkedin"></a>
-                  
+                    <img class="foto-perfil" src="imagenes/foto-perfil.jpg" alt="foto-de-perfil">
                 </div>
-               
+            </div>
+
+            <div class="col-md-4 col-sm-4 contenedor-titulo">
+                <div><h1 class="nombre"> ARIZTEGUI JUAN </h1></div>
+                   <div><p class="titulo">FRONTEND DEVELOPER</p></div> 
+                
+            </div>
+
+            <div class="col-md-4 col-sm-4  contenedor-logos-header">
+                <div class="logos-header">
+                    <a target="_blank" href="https://github.com/gaucho2512"> <img class="logo-gato"
+                            src="./imagenes/logos/gitHub.png" alt="github"></a>
+                    <a target="_blank" href="http://www.linkedin.com/in/juan-carlos-ariztegui-0bb6aa1b9"><img
+                            class="logo-link" src="./imagenes/logos/linkedin.png" alt="linkedin"></a>
+                </div>
             </div>
         </div>
+
+    </header>
+
+
+
+    <!-- SECCION BODY -->
+
+
+    <!-- DATOS PERSONALES -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-5">
+                <div class="seccion-datos">
+
+
+                    <div class="card text-black bg-light mb-3" style="max-width: 600px;">
+                        <div class="card-header">DATOS PERSONALES</div>
+                        <div class="card-body">
+
+                            <p class="card-text"> <img class="logo-casa" src="./imagenes/logos/casa.png" alt="casa"> -
+                                Arana 1739 , TANDIL (Buenos Aires)</p>
+                            <p> <img class="logo-cel" src="./imagenes/logos/tel.png" alt="logo-cel"> - (249) 4351694
+                            </p>
+                            <p> <img class="logo-email" src="./imagenes/logos/email.png" alt="logo-email"> -
+                                juan.ariztegui@hotmail.com</p>
+                            <p> <img class="logo-cuit" src="./imagenes/logos/dni2.png" alt="logo-cuit"> - 20-34759751-2
+                            </p>
+                            <p> <img class="logo-nacimiento" src="./imagenes/logos/nac.png" alt="nacimiento"> - 19 de
+                                mayo de 1989</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--  FORMACION ACADEMICA -->
+
+            <div class="col-md-7 col-sm-7">
+                <div class="seccion-formacion">
+
+                    <div class="card">
+                        <div class="card-header">
+                            SOBRE MÍ
+                        </div>
+                        <div class="card-body div-formacion">
+                            <blockquote class="blockquote mb-0">
+                                <p> Lo que mas me caracteriza en el mundo de la programacion son mis ganas de aprender,
+                                    a travez de la constante capacitacion. Soy una persona a la cual le parece
+                                    importante
+                                    poder hacer lo que a uno le apaciona. Hoy mi principal objetivo como programador
+                                    , es poder adquirir la experiencia necesaria para poder crecer de manera
+                                    profesional. </p>
+
+                                <footer class="blockquote-footer">
+                                    MIS PRINCIPALES FORTALEZAS : </footer>
+
+                                <p class="fortalezas"> PERSEVERANCIA ,  <br>
+                                    HONESTIDAD , <br>
+                                    RESPONSABILIDAD , <br>
+                                    AUTODIDACTA . </p>
+
+
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
     </div>
 
 
 
+    <!--  SECCION EXTRAS -->
 
-<!-- SECCION BODY -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-5 border-container">
+                <div class="seccion-extras">
 
-
-<!-- DATOS PERSONALES -->
-
-<div class="container">
-    <div class="row">
-        <div class="col-5">
-            <div class="seccion-datos">
-
-
-                <div class="card text-black bg-light mb-3" style="max-width: 600px;">
-                    <div class="card-header">DATOS PERSONALES</div>
-                    <div class="card-body">
-
-                        <p class="card-text"> <img class="logo-casa" src="./imagenes/logos/casa.png" alt="casa"> - Arana 1739 , TANDIL (Buenos Aires)</p>
-                        <p> <img class="logo-cel" src="./imagenes/logos/tel.png" alt="logo-cel"> - (249) 4351694 </p>
-                        <p> <img class="logo-email" src="./imagenes/logos/email.png" alt="logo-email">  -  juan.ariztegui@hotmail.com</p>
-                        <p> <img class="logo-cuit" src="./imagenes/logos/dni2.png" alt="logo-cuit"> -  20-34759751-2</p>
-                        <p> <img  class="logo-nacimiento"   src="./imagenes/logos/nac.png" alt="nacimiento">  - 19 de mayo de 1989</p>
+                    <div class="card text-black bg-light mb-3" style="max-width: 600px;">
+                        <div class="card-header"> IDIOMAS </div>
+                        <div class="card-body">
+                            <p> Domino intermedio del Ingles</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+     <!--  SECCION CURSOS!!!! -->
+     <div class="row">
+        <div class="col-md-9 col-sm-9 section-cursos">
 
 
+            <div class="card mb-3">
 
-<!--  FORMACION ACADEMICA -->
+                <div class="card-header">
+                    CURSOS
+                </div>
+                <div class="card-body pb-4 pt-4">
+                    <h5 class="card-title">CURSO DE DESARROLLO FRONT END</h5>
+                    <p class="card-text"> Dictado por el Instituto A.M.E.M.T y apoyado por la CEPIT Tandil (Bs.As) </p>
+                    <p class="card-text">El curso se centro en los principales lenguajes de programacion y algunos
+                        frameworks y librerias como: </p>
+                    <p class="card-text">HTML , Css , Bootstrap , JavaScript , EcmaScript , GIT , Ajax , VueJS , VueX .
+                    </p>
+                    <p class="card-text"><small class="text-muted">Finalizado</small></p>
 
-        <div class="col-7">
-            <div class="seccion-formacion">
+                    <h5 class="card-title">CURSOS ONLINE CON CERTIFICADOS</h5>
+                    <p class="card-text"> <ul>
+                        <li class="espacio">Curso de Html , Css y JavaScript en EDteam (Alvaro Felipe).</li>
+                        <li class="espacio">Curso de Vue Js en Udemy (Bluuweb).</li>
+                        <li class="espacio">Curso de React en Udemy (Fernando Herrera).</li>
+                    </ul> </p>
+                </div>
+            </div>
 
-                <div class="card">
+
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <!--  SECCION CONOCIMIENTOS -->
+
+
+    <div class="row">
+
+        <div class="col-md-9 col-sm-9 contenedor-conocimientos">
+            <div class="seccion-conocimientos">
+
+                <div class="card div-laboral">
                     <div class="card-header">
-                       SOBRE MÍ
+                        CONOCIMIENTOS
                     </div>
-                    <div class="card-body div-formacion">
+                    <div class="card-body  ">
                         <blockquote class="blockquote mb-0">
-                            <p> Lo que mas me caracteriza en el mundo de la programacion son mis ganas de aprender,
-                                a travez de la constante capacitacion. Soy una persona a la cual le parece importante
-                                poder hacer lo que a uno le apaciona. Hoy mi principal objetivo como programador junior
-                                , es poder adquirir la experiencia necesaria para poder crecer de manera profesional.  </p>
+                            <p> Mis conocimientos se basan en mi experiencia con las siguientes tecnologias : </p>
 
-                            <footer class="blockquote-footer"> 
-                             MIS PRINCIPALES FORTALEZAS : </footer>
 
-                                <p> La perseverancia , la honestidad y la responsabilidad</p>
+                            <footer class="blockquote-footer">
+
+                               <div class="contenedor-logos-centrales">
+
+                               <div> <img class="logo-html" src="./imagenes/logos/html.png" alt="html"></div>     
+                               <div> <img class="logo-css" src="./imagenes/logos/css.png" alt="logo-css"></div>       
+                               <div> <img class="logo-js" src="./imagenes/logos/js.png" alt="logo-js"></div>    
+                               <div> <img class="logo-bootstrap" src="./imagenes/logos/bootstrap.png" alt="logo-bootstrap"></div>    
+                               <div> <img class="logo-git" src="./imagenes/logos/git.png" alt="logo-git"></div>      
+                               <div> <img class="logo-scrum" src="./imagenes/logos/scrum.png" alt="logo-scrum"></div>    
+                               <div> <img class="logo-react" src="./imagenes/logos/react.png" alt="logo-react"></div> 
+                               <div> <img class="logo-vue" src="./imagenes/logos/vue.png" alt="logo-vue"></div>  
+                               <div> <img class="logo-jquery" src="./imagenes/logos/jquery.png" alt="logo-jquery"></div> 
+                               <div> <img class="logo-figma" src="./imagenes/logos/figma.png" alt="logo-figma"></div> 
                               
 
+                            </div>
+                                    
+                                    
+                            </footer>
                         </blockquote>
                     </div>
+
                 </div>
 
             </div>
-
-        </div>
-    </div>
-
-</div>
-
-
-
-<!--  SECCION EXTRAS -->
-
-<div class="container"> 
-    <div class="row">
-        <div class="col-5">
-            <div class="seccion-extras">
-
-                <div class="card text-black bg-light mb-3" style="max-width: 600px;">
-                    <div class="card-header"> IDIOMAS </div>
-                    <div class="card-body">
-
-                        <p> Domino intermedio del Ingles</p>
-                      
-
-                    </div>
-
-                </div>
-            </div>
         </div>
 
+         <!--  EXPERIENCIA LABORAL  -->
 
-
-
-<!--  EXPERIENCIA LABORAL  -->
-
-        <div class="col-7">
+         <div class="col-md-9 col-sm-9 contenedor-trabajo">
             <div class="seccion-laboral">
 
                 <div class="card div-laboral">
@@ -133,14 +232,19 @@
                     </div>
                     <div class="card-body div-laboral">
                         <blockquote class="blockquote mb-0">
-                            <p> Solo la de mis proyectos personales,
-                                tengo varios realizados para clientes que todavia no termine,
-                                los mismos estaran disponibles en mi github/gaucho2512 </p>
-                         
-                      
+                            <div class="info-trabajo"> 
+                            <p>ROMPECABEZA DIGITAL <strong> | Santiago - Chile</strong> </p>
+                            <span>Desarrollador Web , Trabaje con las siguientes tecnologias : <br>
+                            Html , Css , JavaScript , JQuery , Bootstrap , Figma , Wordpress , entre otras</span> <br>
+                            <span>Desde el 10/03/2021 al 22/06/2021 - ( 3 Meses ) </span>
+                            </div>
+                            <hr>
 
-
-                        <!--     <footer class="blockquote-footer">  </footer> -->
+                            <div class="info-trabajo"> 
+                                <p>DESARROLLADOR FREELANCE </p>
+                                <span>Desarrollador Web , ( Actual )</span>
+                            </div>
+                           
                         </blockquote>
                     </div>
 
@@ -149,117 +253,45 @@
             </div>
         </div>
     </div>
-
-</div>
-
-
+    </div>
+    </div>
 
 
-<!--  SECCION CONOCIMIENTOS -->
+
+   
+
+    <!-- FOOTER ---- LOGOS!!! -->
 
 
-<div class="row">
-    
-    <div class="col-10">
-        <div class="seccion-conocimientos">
+    <footer class="footer-logos">
 
-            <div class="card div-laboral">
-                <div class="card-header">
-                    CONOCIMIENTOS
-                </div>
-                <div class="card-body  ">
-                    <blockquote class="blockquote mb-0">
-                        <p> Mis conocimientos se basan en mi experiencia con los siguientes lenguajes , fremeworks y softwares. </p>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 contenedor-firma">
 
-
-                        <footer class="blockquote-footer">
-                        
-                            <ul>
-                                
-                                <li>  <img class="logo-html" src="./imagenes/logos/html.png" alt="html" > - HTML</li>
-                                <br>
-                                <li> <img class="logo-css" src="./imagenes/logos/css.png" alt="logo-css"> - CSS</li>
-                                <br>
-                                <li> <img class="logo-js" src="./imagenes/logos/js.png" alt="logo-js"> - JAVASCRIPT </li>
-                                <br>
-                                <li> <img class="logo-bootstrap" src="./imagenes/logos/bootstrap.png" alt="logo-bootstrap"> - BOOTSTRAP   </li>
-                                <br>
-                                <li> <img class="logo-git" src="./imagenes/logos/git.png" alt="logo-git"> - GIT  </li>
-                                <br>
-                                <li> <img class="logo-scrum" src="./imagenes/logos/scrum.png" alt="logo-scrum"> - SCRUM  </li>
-                                <br>
-                                <li> <img class="logo-vue" src="./imagenes/logos/vue.png" alt="logo-vue"> - VUE JS  </li>
-                            </ol>
-                       </footer>
-                    </blockquote>
-                </div>
+               <div class="firma">
+                    <p>Pagina web diseñada por <a href="#">Juan Ariztegui</a></p>
+               </div>
 
             </div>
 
-        </div>
-    </div>
-  </div>
- </div>
-</div>
+            <div class="col-md-6 col-sm-6 contenedor-logos-footer">
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/juan_ariztegui/"> <img class="logo-insta"
+                            src="./imagenes/logos/instagram.png" alt="instagram"></a>
 
-
-
-<!--  SECCION CURSOS!!!! -->
-<div class="row">
-    <div class="col-md-10 section-cur">
-  
-
-<div class="card mb-3">
-    
-                <div class="card-header">
-                   CURSOS
                 </div>
-    <img class="logo-amemt" src="./imagenes/INSTITUTO AMEMT.webp" class="card-img-top" alt="foto academia">
-    <img class="logo-cepit" src="./imagenes/cepit.jpg" alt="cepit">
-    <div class="card-body pb-5 pt-5">
-      <h5 class="card-title">CURSO DE DESARROLLO FRONT END</h5>
-      <p class="card-text"> Dictado por el Instituto A.M.E.M.T y apoyado por la CEPIT Tandil (Bs.As) </p>
-      <p class="card-text">El curso se centro en los principales lenguajes de programacion y algunos frameworks y librerias como: </p>
-      <p class="card-text">HTML , Css , Bootstrap , JavaScript , EcmaScript , GIT , Ajax , VueJS , VueX .</p>
-      <p class="card-text"><small class="text-muted">Finalizado</small></p>
-    </div>
-  </div>
+
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/juan.ariztegui.5 "> <img class="logo-face"
+                            src="./imagenes/logos/facebook.png" alt="facebook"> </a>
 
 
-    </div>
-  </div>
-</div>
+                </div>
 
-      
-    </div>
-</div>
-
-<!-- FOOTER ---- LOGOS!!! -->
-
-
-<footer class="footer-logos" >
-
-    <div class="row">
-        <div class="col-6">
-                 
-            <div class="logo-github">
-                <a target="_blank" href="https://www.facebook.com/juan.ariztegui.5 ">  <img class="logo-face" src="./imagenes/logos/facebook.png" alt="facebook"> </a> 
-               
-           
             </div>
-
         </div>
-
-        <div class="col-6">
-              <div class="logo-linkedin">
-                <a  target="_blank" href="https://www.instagram.com/juan_ariztegui/"> <img class="logo-insta" src="./imagenes/logos/instagram.png" alt="instagram"></a>
-              
-              </div>
-
         </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
 
     <!--  SCRIPTS BOOTSTRAP -->
