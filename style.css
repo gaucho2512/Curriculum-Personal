@@ -312,4 +312,305 @@ header{
 }
 
 
+/* Brakepoints */
+@media (max-width: 413.98px) {
+    .contenedor-foto-perfil {
+        height: auto;
+        justify-content: center;
+    }
+
+    .nombre {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .contenedor-titulo {
+        height: auto;
+    }
+
+    .foto-perfil {
+        margin-top: 15px;
+    }
+
+    .logo-email {
+        margin-left: 0;
+        width: 11%;
+    }
+
+    .logo-casa {
+        width: 13%;
+    }
+
+    .logo-cel {
+        width: 14%;
+    }
+
+    .seccion-datos {
+        height: auto;
+    }
+
+    .seccion-formacion {
+        height: auto;
+    }
+
+    .seccion-extras {
+        margin-top: 16px;
+    }
+
+    .contenedor-logos-footer {
+        height: auto;
+    }
+
+    .contenedor-firma {
+        height: 120px;
+    }
+
+    .logo-insta {
+        width: 60%;
+    }
+
+    .logo-face {
+        width: 27%;
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 575.98px) {  
+    .contenedor-foto-perfil {
+        height: auto;
+        justify-content: center;
+    }
+
+    .nombre {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .contenedor-titulo {
+        height: auto;
+    }
+
+    .foto-perfil {
+        margin-top: 15px;
+    }
+
+    .logo-email {
+        margin-left: 0;
+        width: 11%;
+    }
+
+    .logo-casa {
+        width: 13%;
+    }
+
+    .logo-cel {
+        width: 14%;
+    }
+
+    .seccion-datos {
+        height: auto;
+    }
+
+    .seccion-formacion {
+        height: auto;
+    }
+
+    .seccion-extras {
+        margin-top: 16px;
+    }
+
+    .contenedor-logos-footer {
+        height: auto;
+    }
+
+    .contenedor-firma {
+        height: 120px;
+    }
+
+    .logo-insta {
+        width: 60%;
+    }
+
+    .logo-face {
+        width: 27%;
+        position: relative;
+        left: 80px;
+    }
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .contenedor-foto-perfil {
+        height: auto;
+        justify-content: center;
+    }
+
+    .nombre {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .contenedor-titulo {
+        height: auto;
+    }
+
+    .foto-perfil {
+        margin-top: 15px;
+        height: 150px;
+    }
+
+    .logo-email {
+        margin-left: 0;
+        width: 11%;
+    }
+
+    .logo-casa {
+        width: 13%;
+    }
+
+    .logo-cel {
+        width: 14%;
+    }
+
+    .seccion-datos {
+        height: auto;
+    }
+
+    .seccion-formacion {
+        height: auto;
+    }
+
+    .seccion-extras {
+        margin-top: 16px;
+    }
+
+    .contenedor-logos-footer {
+        height: auto;
+    }
+
+    .contenedor-firma {
+        height: 185px;
+    }
+
+    .logo-insta {
+        width: 60%;
+    }
+
+    .logo-face {
+        width: 27%;
+        position: relative;
+        left: 80px;
+    }
+
+    .logos-header {
+        left: 0;
+    }
+
+    .logo-link {
+        width: 35%;
+    }
+
+    .logo-gato {
+        width: 52%;
+    }
+
+    .div-formacion {
+        height: auto !important;
+    }
+
+}
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contenedor-foto-perfil {
+        height: auto;
+        justify-content: center;
+    }
+
+    .nombre {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .contenedor-titulo {
+        height: auto;
+    }
+
+    .foto-perfil {
+        margin-top: 15px;
+        height: 150px;
+    }
+
+    .logo-email {
+        margin-left: 0;
+        width: 11%;
+    }
+
+    .logo-casa {
+        width: 13%;
+    }
+
+    .logo-cel {
+        width: 14%;
+    }
+
+    .seccion-datos {
+        height: auto;
+    }
+
+    .seccion-formacion {
+        height: auto;
+    }
+
+    .seccion-extras {
+        margin-top: 16px;
+    }
+
+    .contenedor-logos-footer {
+        height: auto;
+    }
+
+    .contenedor-firma {
+        height: 185px;
+    }
+
+    .logo-insta {
+        width: 60%;
+    }
+
+    .logo-face {
+        width: 27%;
+        position: relative;
+        left: 80px;
+    }
+
+    .logos-header {
+        left: 0;
+    }
+
+    .logo-link {
+        width: 35%;
+    }
+
+    .logo-gato {
+        width: 52%;
+    }
+
+    .div-formacion {
+        height: auto !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+
+
+
 
